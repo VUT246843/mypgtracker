@@ -1,4 +1,3 @@
-// set label color based on status
 function setStatusColor() {
   const statuses = document.querySelectorAll('.status');
   statuses.forEach(status => {
@@ -20,7 +19,7 @@ function setStatusColor() {
         status.style.backgroundColor = '#ff551c';
         break;
       default:
-        status.style.backgroundColor = '#6c757d';
+        status.style.backgroundColor = '#ffffff';
         break;
     }
   });
@@ -30,9 +29,11 @@ document.addEventListener('DOMContentLoaded', function() {
   generateHTMLBubbles();
   setStatusColor();
   document.querySelectorAll('.clickable').forEach(bubble => {
-    bubble.addEventListener('click', function() {
-      const extraInfo = this.querySelector('.extra-info');
-      extraInfo.classList.toggle('show');
-    });
+    const extraInfo = bubble.querySelector('.extra-info');
+    if (extraInfo.innerHTML.trim() !== '') {
+      bubble.addEventListener('click', function() {
+        extraInfo.classList.toggle('show');
+      });
+    }
   });
 });
