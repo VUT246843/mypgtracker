@@ -1,22 +1,16 @@
 // status: TODO WIP ISSUE IDEA COMPLETE
 const tasks = [
   {
-    name: "Python code import",
+    name: "Smooth playback",
     status: "WIP",
-    description: "Import final matlab code into python",
-    extraInfo: ""
+    description: "Fix any bugs and make sounds overlap",
+    extraInfo: "Find performance and timing bottlenecks. Async python sound player or threading."
   },
   {
     name: "Python metrics",
     status: "TODO",
-    description: "Measure performance and add graphs",
+    description: "Performance metrics and synthesis graphs",
     extraInfo: "Moving graphs: formants, estimates, overlap. Setup for measuring CPU load."
-  },
-  {
-    name: "Optimization",
-    status: "TODO",
-    description: "In python, optimize CPU-demanding code",
-    extraInfo: "Find better solutions or algorithms. Perhaps a FFT for correlation. Use metrics to find CPU-demanding code."
   },
   {
     name: "C++ new code import",
@@ -27,18 +21,29 @@ const tasks = [
   {
     name: "C++ unit tests",
     status: "TODO",
-    description: "Learn C++ testing with headers. Ensure correct values.",
+    description: "Learn C++ testing. Try out component architecture.",
     extraInfo: ""
   },
   {
     name: "VST sidechain",
     status: "ISSUE",
     description: "Cross-synthesis needs second signal input",
-    extraInfo: "Figure out the best way to have two inputs. One for carrier signal and one for speech. Probably sidechain."
+    extraInfo: "Figure out a convenient setup with two inputs. One for carrier signal and one for speech. Probably sidechain."
+  },
+  {
+    name: "Python experiments",
+    status: "TODO",
+    description: "Try out some ideas for effects",
+    extraInfo: ""
   },
 ];
 
 const timeline = [
+  {
+    name: "Python code import",
+    description: "Import final matlab code into python",
+    extraInfo: ""
+  },
   {
     name: "Finish matlab",
     description: "Prepare final matlab code",
