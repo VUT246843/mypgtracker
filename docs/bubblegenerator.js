@@ -7,10 +7,10 @@ const tasks = [
     extraInfo: "Find performance and timing bottlenecks. Async python sound player or threading."
   },
   {
-    name: "Python metrics",
+    name: "Visualisation",
     status: "TODO",
-    description: "Performance metrics and synthesis graphs",
-    extraInfo: "Moving graphs: formants, estimates, overlap. Setup for measuring CPU load."
+    description: "Python moving graphs: formants, estimates, overlap",
+    extraInfo: ""
   },
   {
     name: "C++ new code import",
