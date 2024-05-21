@@ -1,15 +1,15 @@
 // status: TODO WIP ISSUE IDEA COMPLETE
 const tasks = [
   {
-    name: "Smooth playback",
+    name: "Visualisation",
     status: "WIP",
-    description: "Fix any bugs and make sounds overlap",
-    extraInfo: "Find performance and timing bottlenecks. Async python sound player or threading."
+    description: "Python moving graphs: formants, estimates, overlap",
+    extraInfo: ""
   },
   {
-    name: "Visualisation",
+    name: "Sound quality",
     status: "TODO",
-    description: "Python moving graphs: formants, estimates, overlap",
+    description: "Make voice clearer, try different sample rates, stereo",
     extraInfo: ""
   },
   {
@@ -39,6 +39,11 @@ const tasks = [
 ];
 
 const timeline = [
+  {
+    name: "Smooth playback",
+    description: "Fix any bugs and make sounds overlap",
+    extraInfo: "Find performance and timing bottlenecks. Async python sound player or threading."
+  },
   {
     name: "Python code import",
     description: "Import final matlab code into python",
