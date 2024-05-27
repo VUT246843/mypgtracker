@@ -1,20 +1,8 @@
 // status: TODO WIP ISSUE IDEA COMPLETE
 const tasks = [
   {
-    name: "Visualisation",
-    status: "WIP",
-    description: "Python moving graphs: formants, estimates, overlap",
-    extraInfo: ""
-  },
-  {
-    name: "Sound quality",
-    status: "TODO",
-    description: "Make voice clearer, try different sample rates, stereo",
-    extraInfo: ""
-  },
-  {
     name: "C++ new code import",
-    status: "TODO",
+    status: "WIP",
     description: "Import python code changes",
     extraInfo: ""
   },
@@ -39,6 +27,16 @@ const tasks = [
 ];
 
 const timeline = [
+  {
+    name: "Sound quality",
+    description: "Make voice clearer, try different sample rates, stereo",
+    extraInfo: ""
+  },
+  {
+    name: "Visualisation",
+    description: "Python moving graphs: formants, estimates, overlap",
+    extraInfo: ""
+  },
   {
     name: "Smooth playback",
     description: "Fix any bugs and make sounds overlap",
