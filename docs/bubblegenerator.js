@@ -1,32 +1,43 @@
 // status: TODO WIP ISSUE IDEA COMPLETE
 const tasks = [
   {
-    name: "C++ new code import",
-    status: "WIP",
-    description: "Import python code changes",
-    extraInfo: ""
-  },
-  {
-    name: "C++ unit tests",
-    status: "TODO",
-    description: "Learn C++ testing. Try out component architecture.",
-    extraInfo: ""
-  },
-  {
     name: "VST sidechain",
-    status: "ISSUE",
+    status: "WIP",
     description: "Cross-synthesis needs second signal input",
     extraInfo: "Figure out a convenient setup with two inputs. One for carrier signal and one for speech. Probably sidechain."
   },
   {
-    name: "Python experiments",
+    name: "Cross synthesis C++",
     status: "TODO",
-    description: "Try out some ideas for effects",
+    description: "Add residuals, match quality with python",
+    extraInfo: ""
+  },
+  {
+    name: "Formant shifting",
+    status: "TODO",
+    description: "In python first, able to change in real time",
+    extraInfo: ""
+  },
+  {
+    name: "First drafts",
+    status: "TODO",
+    description: "Write down the initial version of some topics",
+    extraInfo: ""
+  },
+  {
+    name: "Python experiments",
+    status: "IDEA",
+    description: "Try out ideas for effects",
     extraInfo: ""
   },
 ];
 
 const timeline = [
+  {
+    name: "C++ new code import",
+    description: "Import python code changes and FFT",
+    extraInfo: ""
+  },
   {
     name: "Sound quality",
     description: "Make voice clearer, try different sample rates, stereo",
