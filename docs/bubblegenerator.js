@@ -28,14 +28,14 @@ const tasks = [
 
 const timeline = [
   {
-    name: "VST sidechain",
-    description: "Cross-synthesis needs second signal input",
-    extraInfo: "Figure out a convenient setup with two inputs. One for carrier signal and one for speech. Probably sidechain."
-  },
-  {
     name: "Cross synthesis C++",
     description: "Add residuals, filter with voice coefficients",
     extraInfo: ""
+  },
+  {
+    name: "VST sidechain",
+    description: "Cross-synthesis needs second signal input",
+    extraInfo: "Figure out a convenient setup with two inputs. One for carrier signal and one for speech. Probably sidechain."
   },
   {
     name: "C++ new code import",
