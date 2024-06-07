@@ -1,15 +1,9 @@
 // status: TODO WIP ISSUE IDEA COMPLETE
 const tasks = [
   {
-    name: "VST sidechain",
+    name: "Quality",
     status: "WIP",
-    description: "Cross-synthesis needs second signal input",
-    extraInfo: "Figure out a convenient setup with two inputs. One for carrier signal and one for speech. Probably sidechain."
-  },
-  {
-    name: "Cross synthesis C++",
-    status: "TODO",
-    description: "Add residuals, match quality with python",
+    description: "solve VST volume, distortion and stuttering issues",
     extraInfo: ""
   },
   {
@@ -33,6 +27,16 @@ const tasks = [
 ];
 
 const timeline = [
+  {
+    name: "VST sidechain",
+    description: "Cross-synthesis needs second signal input",
+    extraInfo: "Figure out a convenient setup with two inputs. One for carrier signal and one for speech. Probably sidechain."
+  },
+  {
+    name: "Cross synthesis C++",
+    description: "Add residuals, filter with voice coefficients",
+    extraInfo: ""
+  },
   {
     name: "C++ new code import",
     description: "Import python code changes and FFT",
