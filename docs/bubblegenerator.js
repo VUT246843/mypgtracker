@@ -1,32 +1,37 @@
 // status: TODO WIP ISSUE IDEA COMPLETE
 const tasks = [
   {
-    name: "Quality",
-    status: "WIP",
-    description: "solve VST volume, distortion and stuttering issues",
-    extraInfo: ""
-  },
-  {
     name: "Formant shifting",
-    status: "TODO",
+    status: "WIP",
     description: "In python first, able to change in real time",
     extraInfo: ""
   },
   {
     name: "First drafts",
-    status: "TODO",
+    status: "WIP",
     description: "Write down the initial version of some topics",
     extraInfo: ""
   },
   {
-    name: "Python experiments",
+    name: "Experiments",
     status: "IDEA",
-    description: "Try out ideas for effects",
+    description: "Try out different ideas for effects, see what sticks",
+    extraInfo: ""
+  },
+  {
+    name: "Interface",
+    status: "TODO",
+    description: "Custom plugin GUI",
     extraInfo: ""
   },
 ];
 
 const timeline = [
+  {
+    name: "Quality",
+    description: "Solve VST volume, distortion and stuttering issues",
+    extraInfo: ""
+  },
   {
     name: "Cross synthesis C++",
     description: "Add residuals, filter with voice coefficients",
