@@ -1,15 +1,21 @@
 // status: TODO WIP ISSUE IDEA COMPLETE
 const tasks = [
   {
+    name: "Last C++ quality issue",
+    status: "WIP",
+    description: "Resolve popping artifacts and timing",
+    extraInfo: ""
+  },
+  {
     name: "Formant shifting",
     status: "WIP",
     description: "In python first, able to change in real time",
     extraInfo: ""
   },
   {
-    name: "First drafts",
+    name: "Theory",
     status: "WIP",
-    description: "Write down the initial version of some topics",
+    description: "Finish theory chapter including CELP, not including formants",
     extraInfo: ""
   },
   {
@@ -27,6 +33,11 @@ const tasks = [
 ];
 
 const timeline = [
+  {
+    name: "First drafts",
+    description: "Write down the initial version of some topics",
+    extraInfo: ""
+  },
   {
     name: "Quality",
     description: "Solve VST volume, distortion and stuttering issues",
