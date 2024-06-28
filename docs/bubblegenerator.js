@@ -1,70 +1,86 @@
 // status: TODO WIP ISSUE IDEA COMPLETE
 const tasks = [
   {
-    name: "Formant shifting",
+    name: "Formant shift C++",
     status: "WIP",
-    description: "In python first, able to change in real time",
+    description: "Move over from python and optimize more.",
     extraInfo: ""
   },
   {
-    name: "Theory",
+    name: "Frames",
     status: "WIP",
-    description: "Finish theory chapter including CELP, not including formants",
+    description: "Standardize frame sizes. If possible altogether, lockfree FIFO.",
     extraInfo: ""
   },
   {
-    name: "Experiments",
-    status: "IDEA",
-    description: "Try out different ideas for effects, see what sticks",
+    name: "Design chapter",
+    status: "TODO",
+    description: "",
     extraInfo: ""
   },
   {
     name: "Interface",
     status: "TODO",
-    description: "Custom plugin GUI",
+    description: "Custom plugin GUI.",
+    extraInfo: ""
+  },
+  {
+    name: "Implementation chapter",
+    status: "TODO",
+    description: "",
     extraInfo: ""
   },
 ];
 
 const timeline = [
   {
+    name: "Formant shifting",
+    description: "In python first, able to change in real time.",
+    extraInfo: ""
+  },
+  {
+    name: "Theory",
+    description: "Finish theory chapter including CELP, not including formants.",
+    extraInfo: ""
+  },
+  {
     name: "Last C++ quality issue",
-    description: "Resolve popping artifacts and timing",
+    description: "Resolve popping artifacts and timing.",
     extraInfo: ""
   },
   {
     name: "First drafts",
-    description: "Write down the initial version of some topics",
+    description: "Write down the initial version of some topics.",
     extraInfo: ""
   },
   {
     name: "Quality",
-    description: "Solve VST volume, distortion and stuttering issues",
+    description: "Solve VST volume, distortion and stuttering issues.",
     extraInfo: ""
   },
   {
     name: "Cross synthesis C++",
-    description: "Add residuals, filter with voice coefficients",
+    description: "Add residuals, filter with voice coefficients.",
     extraInfo: ""
   },
   {
     name: "VST sidechain",
-    description: "Cross-synthesis needs second signal input",
+    description: "Cross-synthesis needs second signal input.",
     extraInfo: "Figure out a convenient setup with two inputs. One for carrier signal and one for speech. Probably sidechain."
   },
   {
     name: "C++ new code import",
-    description: "Import python code changes and FFT",
+    description: "Import python code changes and FFT.",
     extraInfo: ""
   },
   {
     name: "Sound quality",
-    description: "Make voice clearer, try different sample rates, stereo",
+    description: "Make voice clearer, try different sample rates, stereo.",
     extraInfo: ""
   },
   {
     name: "Visualisation",
-    description: "Python moving graphs: formants, estimates, overlap",
+    description: "Python moving graphs: formants, estimates, overlap.",
     extraInfo: ""
   },
   {
